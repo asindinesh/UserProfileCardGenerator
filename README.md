@@ -141,9 +141,9 @@ http://127.0.0.1:5000
 
 ```json
 {
-  "name": "Asin",
-  "bio": "Computer Science Student",
-  "image_url": "https://example.com/profile.jpg"
+  "name": "Dr.A.P.J.Abdul Kalam",
+  "bio": "Former Indian President",
+  "image_url": "[https://example.com/profile.jpg](https://media.gettyimages.com/id/90562413/photo/india-president-dr-apj-abdul-kalam-at-the-inauguration-of-the.jpg?s=612x612&w=0&k=20&c=YA3_C8sZhGewOM25BcGBx2liwMv1luq8Hk0IkiPdSH4=)"
 }
 ```
 
@@ -154,9 +154,9 @@ http://127.0.0.1:5000
   "success": true,
   "message": "Profile created successfully!",
   "profile": {
-    "name": "Asin",
-    "bio": "Computer Science Student",
-    "image_url": "https://example.com/profile.jpg"
+    "name": "Dr.A.P.J.Abdul Kalam",
+    "bio": "Former Indian President",
+    "image_url": "[https://example.com/profile.jpg](https://media.gettyimages.com/id/90562413/photo/india-president-dr-apj-abdul-kalam-at-the-inauguration-of-the.jpg?s=612x612&w=0&k=20&c=YA3_C8sZhGewOM25BcGBx2liwMv1luq8Hk0IkiPdSH4=)"
   }
 }
 ```
