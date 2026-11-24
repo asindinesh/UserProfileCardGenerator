@@ -1,0 +1,149 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  color: #243b53;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #627d98;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.form-section,
+.preview-section {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.form-section h2,
+.preview-section h2 {
+  color: #243b53;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #334e68;
+}
+
+input,
+textarea {
+  padding: 13px;
+  border: 1px solid #bcccdc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  width: 100%;
+}
+
+textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3867d6;
+}
+
+button {
+  padding: 14px;
+  background: #3867d6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #274caa;
+}
+
+.profile-card {
+  text-align: center;
+  padding: 25px;
+  background: #f8fafc;
+  border-radius: 15px;
+  border: 1px solid #e2e8f0;
+}
+
+.profile-card img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.profile-card h2 {
+  margin-bottom: 10px;
+}
+
+.profile-card p {
+  color: #627d98;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.profile-card span {
+  color: #16803c;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.empty-preview {
+  text-align: center;
+  padding: 60px 15px;
+  color: #829ab1;
+}
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  header h1 {
+    font-size: 25px;
+  }
+}
